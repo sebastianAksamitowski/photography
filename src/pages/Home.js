@@ -56,6 +56,8 @@ const Home = () => {
                 transition={transition1}
                 src={WomanImg}
                 alt=''
+                onMouseEnter={mouseEnterHandler}
+                onMouseLeave={mouseLeaveHandler}
               />
             </motion.div>
           </div>

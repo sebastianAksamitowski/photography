@@ -53,11 +53,7 @@ const Portfolio = () => {
             </Link>
           </motion.div>
           {/* image grid */}
-          <div
-            onMouseEnter={mouseEnterHandler}
-            onMouseLeave={mouseLeaveHandler}
-            className='grid grid-cols-2 lg:gap-2'
-          >
+          <div className='grid grid-cols-2 lg:gap-2'>
             {/* image grid */}
             <div className='max-w-[250px] lg:max-w-[320px] h-[187px] lg:h-[220px] bg-accent overflow-hidden'>
               <img
