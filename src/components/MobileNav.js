@@ -46,7 +46,10 @@ const MobileNav = () => {
           <IoMdClose />
         </div>
         {/* menu list */}
-        <ul className='h-full flex flex-col justify-center items-center gap-y-8 text-primary font-primary font-bold text-3xl'>
+        <ul
+          className='h-full flex flex-col justify-center items-center gap-y-8 text-primary font-primary font-bold text-3xl'
+          onClick={() => setOpenMenu(!openMenu)}
+        >
           <li>
             <Link to='/'>Home</Link>
           </li>
